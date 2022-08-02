@@ -1,0 +1,40 @@
+.form {
+    padding: 16px;
+    background-color: #f0f3f8;
+    position: relative;
+}
+
+.label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+.inputGroup {
+    margin-bottom: 16px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn {
+    background-color: rgba(0, 128, 0, 0.454);
+    color: white;
+}
+.clearBtn {
+    background: transparent;
+}
+.deleteBtn {
+    color: rgba(255, 0, 0, 0.269);
+    background: transparent;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+}

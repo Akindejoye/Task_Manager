@@ -1,0 +1,28 @@
+.container {
+    border: 1px solid gainsboro;
+    border-bottom: 0px;
+    border-radius: 4px;
+    height: max-content;
+    background-color: white;
+    max-width: 350px;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+}
+.text {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.add {
+    border-left: 1px solid gainsboro;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.number {
+    color: gray;
+    margin: 8px;
+}
